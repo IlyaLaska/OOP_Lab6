@@ -4,6 +4,7 @@
 
 #include "Fraction.h"
 #include "MathException.h"
+#include "DivideByZeroException.h"
 
 Fraction::Fraction() {
 //    numerator = Bignum();
@@ -11,7 +12,7 @@ Fraction::Fraction() {
 }
 
 Fraction::Fraction(Bignum num, Bignum denom) {
-    if(denom == Bignum("0")) throw MathException("Tried dividing by zero", denom.number[0]);
+    if(denom == Bignum("0")) throw DivideByZeroException("Tried dividing by zero", num.number[0], denom.number[0]);
     Bignum GCD = euclideanAlgorithm(num, denom);
     Bignum absGCD =  GCD;
     absGCD.isPositive = true;

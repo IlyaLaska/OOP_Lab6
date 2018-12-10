@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/OOP_Lab_6.dir/Exception.cpp.obj"
   "CMakeFiles/OOP_Lab_6.dir/MathException.cpp.obj"
   "CMakeFiles/OOP_Lab_6.dir/InputException.cpp.obj"
+  "CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.obj"
+  "CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.obj"
   "OOP_Lab_6.pdb"
   "OOP_Lab_6.exe"
   "OOP_Lab_6.exe.manifest"

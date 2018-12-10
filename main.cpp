@@ -12,41 +12,39 @@
 #include "Exception.h"
 #include "InputException.h"
 #include "MathException.h"
+#include "DivideByZeroException.h"
 
 void fillMatrix(Matrix &mat);
 
 using namespace std;
 int main() {
     try {
-        Bignum("q");
-    } catch (InputException &e) {
+//        Bignum a = Bignum("q");//Input Exception
+//        Fraction b(Bignum("1"), Bignum("0"));//MathException - DivideByZeroException
+        while (true) {
+            try {
+                Matrix c(1,1);
+                fillMatrix(c);
+                break;
+            } catch (InputException<std::string> &e) {
+                cout << "Error: " << e.what() << ": " << e.getInput() << endl;
+                cout << "Now do it again, PROPERLY this time!" << endl;
+            }
+        }
+    } catch (InputException<std::string> &e) {
         cout << "Error: " << e.what() << ": " << e.getInput() << endl;
+    } catch (DivideByZeroException<int> &e) {
+        cout << "Error: " << e.what() << ": " << e.getError() << " with first operand being: " << e.showFirstOperand() << endl;
+    } catch (MathException<int> &e) {
+        cout << "Error: " << e.what() << ": " << e.getError() << endl;
     } catch (Exception &e) {
         cout << "Error: " << '9' - 48 <<e.what() << endl;
-        return 0;
-    }
-
-    try {
-        Fraction qwee(Bignum("1"), Bignum("0"));
-    } catch (MathException &e) {
-        cout << "Error: " << e.what() << ": " << e.getError() << endl;
     } catch (...) {
         cout << "Unknown error" << endl;
-    }
-    for (;;) {
-        try {
-            try {
-                Matrix matr(1,1);
-                fillMatrix(matr);
-            } catch (InputException &e) {
-                cout << "Error: " << e.what() << ": " << e.getInput() << endl;
-                throw "rubbish";
-            }
-            break;
-        } catch (...) {
-            cout << "Now do it again, PROPERLY this time!" << endl;
-        }
-    }
+    };
+
+    cout << "That's all folks!" << endl;
+
 //    try {
 //        Matrix matr(1,1);
 //        fillMatrix(matr);
@@ -93,7 +91,8 @@ void fillMatrix(Matrix &mat) {
         std::getline(std::cin, temp);
         std::string::size_type pos = temp.find('/');
         if(pos == std::string::npos)
-            return fillMatrix(mat); //std::cout << "AAAAAAAAAAAAAAAAAAAAAAAAA" << std::endl;
+            throw InputException<std::string>("Wrong input", temp);
+//            return fillMatrix(mat); //std::cout << "AAAAAAAAAAAAAAAAAAAAAAAAA" << std::endl;
         std::string denom = temp.substr(pos+1);
 //        std::cout << "Denom: " << denom << std::endl;
         temp.erase(pos);

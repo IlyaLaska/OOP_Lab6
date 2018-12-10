@@ -1,4 +1,4 @@
-D:\JetBrains\apps\CLion\ch-0\183.4284.104\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\JetBrains\apps\CLion\Projects\OOP_Lab6
+D:\JetBrains\apps\CLion\ch-0\183.4284.140\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\JetBrains\apps\CLion\Projects\OOP_Lab6
 -- Configuring done
 -- Generating done
 -- Build files have been written to: D:/JetBrains/apps/CLion/Projects/OOP_Lab6/cmake-build-debug

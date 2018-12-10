@@ -86,6 +86,12 @@
 		<Unit filename="D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Bignum.h">
 			<Option target="OOP_Lab_6"/>
 		</Unit>
+		<Unit filename="D:/JetBrains/apps/CLion/Projects/OOP_Lab6/DivideByZeroException.cpp">
+			<Option target="OOP_Lab_6"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/apps/CLion/Projects/OOP_Lab6/DivideByZeroException.h">
+			<Option target="OOP_Lab_6"/>
+		</Unit>
 		<Unit filename="D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Exception.cpp">
 			<Option target="OOP_Lab_6"/>
 		</Unit>
@@ -114,6 +120,12 @@
 			<Option target="OOP_Lab_6"/>
 		</Unit>
 		<Unit filename="D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Matrix.h">
+			<Option target="OOP_Lab_6"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/apps/CLion/Projects/OOP_Lab6/MemoryException.cpp">
+			<Option target="OOP_Lab_6"/>
+		</Unit>
+		<Unit filename="D:/JetBrains/apps/CLion/Projects/OOP_Lab6/MemoryException.h">
 			<Option target="OOP_Lab_6"/>
 		</Unit>
 		<Unit filename="D:/JetBrains/apps/CLion/Projects/OOP_Lab6/main.cpp">

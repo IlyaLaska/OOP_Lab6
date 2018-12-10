@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\183.4284.104\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\183.4284.140\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\JetBrains\apps\CLion\ch-0\183.4284.104\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = D:\JetBrains\apps\CLion\ch-0\183.4284.140\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\JetBrains\apps\CLion\Projects\OOP_Lab6\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	D:\JetBrains\apps\CLion\ch-0\183.4284.104\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	D:\JetBrains\apps\CLion\ch-0\183.4284.140\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	D:\JetBrains\apps\CLion\ch-0\183.4284.104\bin\cmake\win\bin\cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\JetBrains\apps\CLion\ch-0\183.4284.140\bin\cmake\win\bin\cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -148,6 +148,33 @@ Bignum.s: Bignum.cpp.s
 Bignum.cpp.s:
 	$(MAKE) -f CMakeFiles\OOP_Lab_6.dir\build.make CMakeFiles/OOP_Lab_6.dir/Bignum.cpp.s
 .PHONY : Bignum.cpp.s
+
+DivideByZeroException.obj: DivideByZeroException.cpp.obj
+
+.PHONY : DivideByZeroException.obj
+
+# target to build an object file
+DivideByZeroException.cpp.obj:
+	$(MAKE) -f CMakeFiles\OOP_Lab_6.dir\build.make CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.obj
+.PHONY : DivideByZeroException.cpp.obj
+
+DivideByZeroException.i: DivideByZeroException.cpp.i
+
+.PHONY : DivideByZeroException.i
+
+# target to preprocess a source file
+DivideByZeroException.cpp.i:
+	$(MAKE) -f CMakeFiles\OOP_Lab_6.dir\build.make CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.i
+.PHONY : DivideByZeroException.cpp.i
+
+DivideByZeroException.s: DivideByZeroException.cpp.s
+
+.PHONY : DivideByZeroException.s
+
+# target to generate assembly for a file
+DivideByZeroException.cpp.s:
+	$(MAKE) -f CMakeFiles\OOP_Lab_6.dir\build.make CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.s
+.PHONY : DivideByZeroException.cpp.s
 
 Exception.obj: Exception.cpp.obj
 
@@ -284,6 +311,33 @@ Matrix.cpp.s:
 	$(MAKE) -f CMakeFiles\OOP_Lab_6.dir\build.make CMakeFiles/OOP_Lab_6.dir/Matrix.cpp.s
 .PHONY : Matrix.cpp.s
 
+MemoryException.obj: MemoryException.cpp.obj
+
+.PHONY : MemoryException.obj
+
+# target to build an object file
+MemoryException.cpp.obj:
+	$(MAKE) -f CMakeFiles\OOP_Lab_6.dir\build.make CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.obj
+.PHONY : MemoryException.cpp.obj
+
+MemoryException.i: MemoryException.cpp.i
+
+.PHONY : MemoryException.i
+
+# target to preprocess a source file
+MemoryException.cpp.i:
+	$(MAKE) -f CMakeFiles\OOP_Lab_6.dir\build.make CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.i
+.PHONY : MemoryException.cpp.i
+
+MemoryException.s: MemoryException.cpp.s
+
+.PHONY : MemoryException.s
+
+# target to generate assembly for a file
+MemoryException.cpp.s:
+	$(MAKE) -f CMakeFiles\OOP_Lab_6.dir\build.make CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.s
+.PHONY : MemoryException.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -323,6 +377,9 @@ help:
 	@echo ... Bignum.obj
 	@echo ... Bignum.i
 	@echo ... Bignum.s
+	@echo ... DivideByZeroException.obj
+	@echo ... DivideByZeroException.i
+	@echo ... DivideByZeroException.s
 	@echo ... Exception.obj
 	@echo ... Exception.i
 	@echo ... Exception.s
@@ -338,6 +395,9 @@ help:
 	@echo ... Matrix.obj
 	@echo ... Matrix.i
 	@echo ... Matrix.s
+	@echo ... MemoryException.obj
+	@echo ... MemoryException.i
+	@echo ... MemoryException.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

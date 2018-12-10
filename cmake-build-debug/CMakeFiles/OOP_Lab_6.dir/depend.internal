@@ -6,11 +6,17 @@ CMakeFiles/OOP_Lab_6.dir/Bignum.cpp.obj
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Bignum.h
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Exception.h
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/InputException.h
+CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.obj
+ D:/JetBrains/apps/CLion/Projects/OOP_Lab6/DivideByZeroException.cpp
+ D:/JetBrains/apps/CLion/Projects/OOP_Lab6/DivideByZeroException.h
+ D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Exception.h
+ D:/JetBrains/apps/CLion/Projects/OOP_Lab6/MathException.h
 CMakeFiles/OOP_Lab_6.dir/Exception.cpp.obj
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Exception.cpp
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Exception.h
 CMakeFiles/OOP_Lab_6.dir/Fraction.cpp.obj
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Bignum.h
+ D:/JetBrains/apps/CLion/Projects/OOP_Lab6/DivideByZeroException.h
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Exception.h
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Fraction.cpp
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Fraction.h
@@ -28,8 +34,13 @@ CMakeFiles/OOP_Lab_6.dir/Matrix.cpp.obj
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Fraction.h
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Matrix.cpp
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Matrix.h
+CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.obj
+ D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Exception.h
+ D:/JetBrains/apps/CLion/Projects/OOP_Lab6/MemoryException.cpp
+ D:/JetBrains/apps/CLion/Projects/OOP_Lab6/MemoryException.h
 CMakeFiles/OOP_Lab_6.dir/main.cpp.obj
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Bignum.h
+ D:/JetBrains/apps/CLion/Projects/OOP_Lab6/DivideByZeroException.h
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Exception.h
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Fraction.h
  D:/JetBrains/apps/CLion/Projects/OOP_Lab6/InputException.h

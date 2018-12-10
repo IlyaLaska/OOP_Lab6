@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\183.4284.104\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\183.4284.140\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\JetBrains\apps\CLion\ch-0\183.4284.104\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = D:\JetBrains\apps\CLion\ch-0\183.4284.140\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -147,6 +147,32 @@ CMakeFiles/OOP_Lab_6.dir/InputException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Lab_6.dir/InputException.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\JetBrains\apps\CLion\Projects\OOP_Lab6\InputException.cpp -o CMakeFiles\OOP_Lab_6.dir\InputException.cpp.s
 
+CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.obj: CMakeFiles/OOP_Lab_6.dir/flags.make
+CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.obj: ../MemoryException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\apps\CLion\Projects\OOP_Lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_Lab_6.dir\MemoryException.cpp.obj -c D:\JetBrains\apps\CLion\Projects\OOP_Lab6\MemoryException.cpp
+
+CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\JetBrains\apps\CLion\Projects\OOP_Lab6\MemoryException.cpp > CMakeFiles\OOP_Lab_6.dir\MemoryException.cpp.i
+
+CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\JetBrains\apps\CLion\Projects\OOP_Lab6\MemoryException.cpp -o CMakeFiles\OOP_Lab_6.dir\MemoryException.cpp.s
+
+CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.obj: CMakeFiles/OOP_Lab_6.dir/flags.make
+CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.obj: ../DivideByZeroException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\JetBrains\apps\CLion\Projects\OOP_Lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP_Lab_6.dir\DivideByZeroException.cpp.obj -c D:\JetBrains\apps\CLion\Projects\OOP_Lab6\DivideByZeroException.cpp
+
+CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\JetBrains\apps\CLion\Projects\OOP_Lab6\DivideByZeroException.cpp > CMakeFiles\OOP_Lab_6.dir\DivideByZeroException.cpp.i
+
+CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\JetBrains\apps\CLion\Projects\OOP_Lab6\DivideByZeroException.cpp -o CMakeFiles\OOP_Lab_6.dir\DivideByZeroException.cpp.s
+
 # Object files for target OOP_Lab_6
 OOP_Lab_6_OBJECTS = \
 "CMakeFiles/OOP_Lab_6.dir/main.cpp.obj" \
@@ -155,7 +181,9 @@ OOP_Lab_6_OBJECTS = \
 "CMakeFiles/OOP_Lab_6.dir/Matrix.cpp.obj" \
 "CMakeFiles/OOP_Lab_6.dir/Exception.cpp.obj" \
 "CMakeFiles/OOP_Lab_6.dir/MathException.cpp.obj" \
-"CMakeFiles/OOP_Lab_6.dir/InputException.cpp.obj"
+"CMakeFiles/OOP_Lab_6.dir/InputException.cpp.obj" \
+"CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.obj" \
+"CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.obj"
 
 # External object files for target OOP_Lab_6
 OOP_Lab_6_EXTERNAL_OBJECTS =
@@ -167,11 +195,13 @@ OOP_Lab_6.exe: CMakeFiles/OOP_Lab_6.dir/Matrix.cpp.obj
 OOP_Lab_6.exe: CMakeFiles/OOP_Lab_6.dir/Exception.cpp.obj
 OOP_Lab_6.exe: CMakeFiles/OOP_Lab_6.dir/MathException.cpp.obj
 OOP_Lab_6.exe: CMakeFiles/OOP_Lab_6.dir/InputException.cpp.obj
+OOP_Lab_6.exe: CMakeFiles/OOP_Lab_6.dir/MemoryException.cpp.obj
+OOP_Lab_6.exe: CMakeFiles/OOP_Lab_6.dir/DivideByZeroException.cpp.obj
 OOP_Lab_6.exe: CMakeFiles/OOP_Lab_6.dir/build.make
 OOP_Lab_6.exe: CMakeFiles/OOP_Lab_6.dir/linklibs.rsp
 OOP_Lab_6.exe: CMakeFiles/OOP_Lab_6.dir/objects1.rsp
 OOP_Lab_6.exe: CMakeFiles/OOP_Lab_6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\JetBrains\apps\CLion\Projects\OOP_Lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable OOP_Lab_6.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\JetBrains\apps\CLion\Projects\OOP_Lab6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable OOP_Lab_6.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OOP_Lab_6.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

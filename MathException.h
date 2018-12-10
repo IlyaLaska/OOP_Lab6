@@ -6,13 +6,13 @@
 #define OOP_LAB_6_MATHEXCEPTION_H
 
 #include "Exception.h"
-
+template <typename T>
 class MathException: public Exception {
 private:
-    int error;
+    T error;
 public:
-    explicit MathException(const char* error, int culprit): error(culprit), Exception(error) {};
-    int getError() const {return error;}
+    explicit MathException(const char* error, T culprit): error(culprit), Exception(error) {};
+    T getError() const {return error;}
 
 };
 

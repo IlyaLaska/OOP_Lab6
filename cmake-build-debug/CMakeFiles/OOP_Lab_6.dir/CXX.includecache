@@ -14,6 +14,10 @@ string
 iostream
 -
 
+D:/JetBrains/apps/CLion/Projects/OOP_Lab6/DivideByZeroException.h
+MathException.h
+D:/JetBrains/apps/CLion/Projects/OOP_Lab6/MathException.h
+
 D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Exception.h
 
 D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Fraction.h
@@ -25,6 +29,8 @@ D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Bignum.h
 D:/JetBrains/apps/CLion/Projects/OOP_Lab6/InputException.h
 Exception.h
 D:/JetBrains/apps/CLion/Projects/OOP_Lab6/Exception.h
+string
+-
 iostream
 -
 
@@ -57,4 +63,6 @@ InputException.h
 D:/JetBrains/apps/CLion/Projects/OOP_Lab6/InputException.h
 MathException.h
 D:/JetBrains/apps/CLion/Projects/OOP_Lab6/MathException.h
+DivideByZeroException.h
+D:/JetBrains/apps/CLion/Projects/OOP_Lab6/DivideByZeroException.h
 

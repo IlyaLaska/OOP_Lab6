@@ -6,16 +6,20 @@
 #define OOP_LAB_6_INPUTEXCEPTION_H
 
 #include "Exception.h"
+#include <string>
 #include <iostream>
 
+template <typename T>
 class InputException: public Exception {
 private:
-    char input;
+//    char inputChar;
+    T input;
+//    std::string inputStr;
 public:
-    explicit InputException(const char* error, char culprit): input(culprit), Exception(error) {
-//        std::cout << "E"
-    };
-    char getInput() const {return input;}
+    explicit InputException(const char* error, T culprit): input(culprit), Exception(error) {};
+//    explicit InputException(const char* error, const char* culprit): input(culprit), Exception(error) {};
+//    explicit InputException(std::string error, const char* culprit): input(culprit), Exception(error) {};
+    T getInput() const {return input;}
 };
 
 
